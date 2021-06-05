@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+
+	<!-- Font awesome -->
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+	
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Ualá</title>
+	<!-- add icon link -->
+	<!-- <link rel="icon" type="image/png" href="https://www.uala.com.ar/assets/images/logos/isologotipo.png" sizes="16x16"> -->
+	<link rel="shortcut icon" href="https://www.uala.com.ar/favicon.ico?v=4.7.45">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+        <!--  Bootstrap Bundle  -->
+		<script
+		src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+		crossorigin="anonymous"
+	  ></script>
+</head>
+
+
+<body>
+   <header class="fixed-top">
+		<nav class="navbar navbar-dark navbar-expand-custom" style="background-color: #141414;">
+			<div class="container-fluid">
+				<div class="navbar-icons">
+					<a class="navbar-brand" href="#">
+						<img src="https://www.uala.com.ar/assets/images/logos/logotipo.svg" alt="Uala logo">
+					</a>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarSupportedContent"
+						aria-controls="navbarSupportedContent"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<img class="rearange" src="https://www.uala.com.ar/assets/images/svg/rearange.svg" alt="">
+					</button>
+				</div>
+				
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mb-2 mb-md-0">
+						<!-- Funcionalidades-Menu -->
+						<li class="nav-item dropdown">
+							<a
+								class="nav-link dropdown-toggle"
+								href="#"
+								id="navbarDropdown"
+								role="button"
+								data-bs-toggle="dropdown"
+								aria-expanded="false"
+							>
+							Funcionalidades
+							</a>
+							<hr class="bg-light">
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<a href="https://www.uala.com.ar/tarjeta"><li>La tarjeta</li></a>
+									<a href="https://www.uala.com.ar/pagos"><li>Pagos y recargas</li></a>
+									<a href="https://www.uala.com.ar/transferencias"><li>Transferencias</li></a>
+									<a href="https://www.uala.com.ar/inversiones"><li>Inversiones</li></a>
+									<a href="https://www.uala.com.ar/creditos"><li>Créditos</li></a>
+									<a href="https://www.uala.com.ar/extracciones"><li>Extracciones</li></a>
+									<a href="https://www.uala.com.ar/analisis-de-gastos"><li>Análisis de gastos</li></a>
+									<a href="https://www.uala.com.ar/cobros" onclick="gtag('event', 'form', {'event_category' : 'conversion', 'event_action' : 'click cobros'});"><li>Cobros</li></a>
+								</ul>
+
+						</li>
+						<!-- Ayuda y seguridad -Menu -->
+						<li class="nav-item dropdown dropdown-toggle">
+							<a
+								class="nav-link "
+								href="#"
+								id="navbarDropdown"
+								role="button"
+								data-bs-toggle="dropdown"
+								aria-expanded="false"
+							>
+							Ayuda y seguridad
+							</a>
+							<hr class="bg-light">
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a href="https://www.uala.com.ar/faqs"><li>Preguntas frecuentes</li></a>
+								<a href="https://www.uala.com.ar/contacto"><li>Métodos de contacto</li></a>
+								<a target="_BLANK" href="http://comunidad.uala.com.ar/"><li>Comunidad Ualá</li></a>
+								<a href="https://www.uala.com.ar/seguridad"><li>Consejos de seguridad</li></a>
+								<a href="https://www.uala.com.ar/tarjeta#robo"><li>Denuncia por robo o pérdida</li></a>
+							</ul>
+						</li>
+						<!-- Sobre Ualá-Menu -->
+						<li class="nav-item dropdown">
+							<a
+								class="nav-link dropdown-toggle"
+								href="#"
+								id="navbarDropdown"
+								role="button"
+								data-bs-toggle="dropdown"
+								aria-expanded="false"
+							>
+							Sobre Ualá
+							</a>
+							<hr class="bg-light">
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a href="https://www.uala.com.ar/nosotr@s"><li>Nosotr@s</li></a>
+								<a href="https://www.uala.com.ar/trabajar-en-uala"><li>Búsquedas laborales</li></a>
+								<a href="https://www.uala.com.ar/prensa"><li>Prensa</li></a>
+								<a target="_BLANK" href="http://blog.uala.com.ar/"><li>El blog de Ualá</li></a>
+							</ul>
+
+						</li>
+						<!-- Costos-Link -->
+						<li class="nav-item">
+							<a class="nav-link" href="https://www.uala.com.ar/costos">Costos</a>
+							<hr class="bg-light">
+						</li>
+						<!-- Promociones-Link -->
+						<li class="nav-item">
+							<a class="nav-link" href="https://www.uala.com.ar/promociones">Promociones</a>
+							<hr class="bg-light">
+						</li>
+						<li class="menu-dwlbutton">
+							<button class="dwl-button">Descarga Ualá</button>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+   </header>
+	 <main class="main">
+		 <section class="block1-container">
+			 <section class="block1-content">
+				<div class="block1-container_img">
+					<img src="https://www.uala.com.ar/assets/images/gif/home.gif" alt="App-gif">
+				</div>
+				<div class="block1-text">
+					<h1>Somos el lado bueno de tu plata.</h1>
+					<h2 >Una app y una tarjeta</h2>
+					<h2 >Mastercard para manejar</h2>
+					<h2 >tu plata mucho más fácil.</h2>
+					<button class="dwl-button">Descarga Ualá</button>
+					<div class="stores-container">
+						<a href="https://uala.onelink.me/Mhko/49dd979f" onclick="gtag('event', 'form', {'event_category' : 'form', 'event_action' : 'click android'});" class="store">
+							<img src="https://www.uala.com.ar/assets/images/logos/icono-playstore.svg" alt="">
+						</a>
+						<a href="https://uala.onelink.me/Mhko/49dd979f" onclick="gtag('event', 'form', {'event_category' : 'form', 'event_action' : 'click ios'});" class="store">
+							<img src="https://www.uala.com.ar/assets/images/logos/apple-store.svg" alt="">
+						</a>
+					</div>
+				</div>
+			 </section>
+		 </section>
+
+		 <section class="block2-container">
+			<section class="wave-container">
+				<img src="./assets/topwave.svg" alt="">
+			</section>
+			 <section class="block2-content">
+				<h1 class="block2-title">¿Cómo sumarte a Ualá?
+				</h1>
+				<section class="dwl-steps">
+					<div class="dwl-stepbar"></div>
+					<div class="subblock1 opacity-disable">
+						<img src="https://www.uala.com.ar/assets/images/svg/app.svg" alt="step1">
+						<div class="subblock1-p">
+							<span>1.</span>
+							Descargá la app desde Play Store o App Store en tu celular.
+
+						</div>
+					</div>
+					<div class="subblock1 opacity-disable">
+						<img src="https://www.uala.com.ar/assets/images/svg/doc.svg" alt="step1">
+						<div class="subblock1-p">
+							<span>2.</span>
+							Completá el registro con tus datos desde la app.                
+							
+						</div>
+					</div>
+					<div class="subblock1 opacity-disable">
+						<img src="https://www.uala.com.ar/assets/images/svg/delivery.svg" alt="step1">
+						<div class="subblock1-p">
+							<span>3.</span>
+							Recibí tu tarjeta Ualá dentro de los 15 días hábiles, gratis y en todo el país.
+							
+						</div>
+					</div>
+					<div class="subblock1 opacity-disable">
+						<img src="https://www.uala.com.ar/assets/images/svg/contactless.svg" alt="step1">
+						<div class="subblock1-p">
+							<span>4.</span>
+							¡Activá tu tarjeta desde la app y cargá saldo para empezar a usarla!
+							
+						</div>
+					</div>
+				</section>
+
+			</section>
+			<section class="block2-content2">
+				<h1>Cargá saldo gratis
+				</h1>
+				<section class="block2-content2_container">
+					<div class="titleTransfer">
+						<img src="https://www.uala.com.ar/assets/images/svg/icono-transferencias.svg" alt="icono transferencias">
+						<p>Transferencias CVU / CBU</p>
+					</div>
+					<div class="logosTransfer">
+						<img src="https://www.uala.com.ar/assets/images/logos/rapipago.svg" alt="rapipago logo">
+						<img src="https://www.uala.com.ar/assets/images/logos/pagofacil.svg" alt="pagofacil logo">
+						<img src="https://www.uala.com.ar/assets/images/logos/telerecargas.svg" alt="telerecargas logo">
+						<img src="https://www.uala.com.ar/assets/images/logos/cobro-express.svg" alt="cobro express logo">
+					</div>
+				</section>
+			</section>
+
+		 </section>
+
+		<section class="block3-container first">
+			<section class="wave-container mirrored">
+				<img src="./assets/topwave.svg" alt="">
+		   </section>
+			<section class="block3-content">
+				<h1 class="block3-title">Mirá todo lo que podés hacer con Ualá
+				</h1>
+			<!-- Primer card-container -->
+			<section>
+					<div class="card-container_row">
+						<div class="card-container">					  <div class="card">
+							<img src="https://www.uala.com.ar/assets/images/svg/retiro.svg">
+							<h1 class="card-text_title">Retirar efectivo</h1>
+							<p class="card-text">
+								Sacá plata de cualquier cajero de la red Link o Banelco con tu tarjeta Ualá.
+							</p>
+							<button class="vermas-button">Ver más</button>
+						  </div>
+						</div>
+
+						<div class="card-container">
+							<div class="card">
+								<img src="https://www.uala.com.ar/assets/images/svg/compras.svg">
+								<h1 class="card-text_title">Comprar</h1>
+								<p class="card-text">
+									Hacé compras en cualquier comercio o página web del mundo que acepte Mastercard.
+								</p>
+								<button class="vermas-button">Ver más</button>
+							  </div>
+						</div>
+
+						<div class="card-container">
+							<div class="card">
+								<img src="https://www.uala.com.ar/assets/images/svg/transferencias.svg">
+								<h1 class="card-text_title">Transferir</h1>
+								<p class="card-text">
+									Enviá y recibí plata desde cualquier cuenta. Gratis y en el acto.
+								</p>
+								<button class="vermas-button">Ver más</button>
+							  </div>
+						</div>
+
+						<div class="card-container">
+							<div class="card">
+								<img src="https://www.uala.com.ar/assets/images/svg/pagos.svg">
+								<h1 class="card-text_title">Pagar y recargar</h1>
+								<p class="card-text">
+									Pagá tus facturas, recargá tus servicios prepagos y cargá la SUBE.
+								 </p>
+								<button class="vermas-button">Ver más</button>
+							  </div>
+						</div>
+
+					</div>
+			</section>
+			</section>
+		</section>
+			<!-- Phone contaniner -->
+		<section class="subblock3">
+			<div class="subblock3-container">
+				<div class="wave-container mirrored">
+					<img src="./assets/bottomwave.svg" alt="">
+				  </div>
+				  <div class="phone-container">
+					<div class="phone-content">
+						<img src="https://www.uala.com.ar/assets/images/svg/phone.svg" alt="">
+						<p>
+						  Manejar tu plata como quieras, cuando quieras y donde quieras es 
+						  <span class="hashtag">#ElLadoBuenoDeTuPlata</span>
+						</p>
+				  </div>
+				  </div>
+				  <div class="wave-container">
+					<img src="./assets/bottomwave.svg" alt="">
+				  </div>
+
+			</div>
+			</section>
+		<section class="block3-container second">			
+			<!-- Segundo card-container -->
+			<div class="block3-content2">
+				<h2 class="block3-title2">Nuestros usuarios dicen</h2>
+				<section>
+					<div class="card-container_row">
+					<div class="usercard-container">
+						<div class="person-card">
+							<img class="img-container" src="https://www.uala.com.ar/assets/images/photos/photo-1.png">
+							<h1 class="person-card-text_title">Fernando Ezequiel Zunino</h1>
+							<h2 class="person-card-text_title">Buenos Aires</h2>
+							<p class="person-card-text">
+								
+								"Desde que empecé a usar Ualá puedo manejar mi plata de una manera mucho más fácil, cómoda y segura."
+							
+							</p>
+						  </div>
+					</div>
+					<div class="usercard-container">
+						<div class="person-card">
+							<img class="img-container" src="https://www.uala.com.ar/assets/images/photos/photo-2.png">
+							<h1 class="person-card-text_title">Fabian Alejandro</h1>
+							<h2 class="person-card-text_title">CABA</h2>
+							<p class="person-card-text">
+								
+								"Pedir mi Ualá fue rápido, sencillo y sin vueltas. Desde que la tuve pude suscribirme a Netflix, Spotify ¡mucho más!"
+						
+							</p>
+						  </div>
+					</div>
+					<div class="usercard-container">
+						<div class="person-card">
+							<img class="img-container" src="https://www.uala.com.ar/assets/images/photos/photo-3.png">
+							<h1 class="person-card-text_title">Alejandro Carlos Yacanto Diaz</h1>
+							<h2 class="person-card-text_title">San Juan</h2>
+							<p class="person-card-text">
+								
+								"Desde que empecé a usar Ualá puedo manejar mi plata de una manera mucho más fácil, cómoda y segura."
+							
+							</p>
+						  </div>
+					</div>
+					<div class="usercard-container">
+						<div class="person-card">
+							<img class="img-container" src="https://www.uala.com.ar/assets/images/photos/photo-4.png">
+							<h1 class="person-card-text_title">Fernando Ramírez</h1>
+							<h2 class="person-card-text_title">Mendoza</h2>
+							<p class="person-card-text">
+								
+								"Ualá fue la primera tarjeta que tuve siendo menor de edad y cambió mi manera de manejar mi plata. Vino a revolucionar y mejorar la vida financiera de tod@s."
+						
+							</p>
+						  </div>
+					</div>
+	
+					</div>
+				</section>
+				<!-- Info Section -->
+				  <section class="info-section">
+					  <div class="info-section-content">
+						<h1 class="info-title">
+							Atención 100% online
+						</h1>
+						<p class="info-p">
+							Si tenés dudas, ¡preguntanos a nosotros!, si sos usuario de Ualá escribinos por el chat de la app,
+						</p>
+						<p class="info-p">
+							Si todavía no te sumaste, por mail a
+							<a href="mailto:hola@uala.com.ar">hola@uala.com.ar</a>
+							o por nuestras redes sociales
+						</p>
+						<p class="info-p">
+							Además en la 
+							<a target="_blank" href="http://comunidad.uala.com.ar/">Comunidad Ualá</a>
+							, encontrarás las respuestas en un click.
+						</p>
+					  </div>
+					  <div>
+						  <img src="https://www.uala.com.ar/assets/images/logos/celular-contacto.png" alt="">
+					  </div>
+					
+				</section>
+			</div>
+
+		</section>
+		<!-- Footer -->
+		<footer class="footer">
+			<section class="wave-container">
+				<img src="./assets/footerwave.svg" alt="">
+			</section>
+			<div class="block4-container">
+
+			
+			<section class="block4-content">
+				<section class="footer-brand">
+					<div class="brand-logo">
+						<img src="https://www.uala.com.ar/assets/images/logos/isologotipo.png" alt="">
+					</div>
+					<div class="brand-social">
+						<a target="_blank" href="https://www.instagram.com/uala_arg/">
+							<i class="fab fa-instagram"></i>
+						</a>
+						<a target="_blank" href="https://www.facebook.com/uala.arg/">
+							<i class="fab fa-facebook"></i>
+						</a>
+						</a>
+						<a target="_blank" href="https://twitter.com/uala_arg">
+							<i class="fab fa-twitter"></i>
+						</a>
+						</a>
+						<a target="_blank" href="https://www.linkedin.com/company/ual%C3%A1/">
+							<i class="fab fa-linkedin"></i>
+						</a>
+						</a>
+						<a target="_blank" href="https://www.youtube.com/channel/UCYFkMsPU2HvERxI-gHqzLxg">
+							<i class="fab fa-youtube"></i>
+						</a>
+						</a>
+					</div>
+
+					<div class="brand-dwl">
+						<img src="https://www.uala.com.ar/assets/images/logos/applestore.png" alt="">
+						<img src="https://www.uala.com.ar/assets/images/logos/androidstore.png" alt="">
+					</div>
+				</section>
+				<section class="footer-map">
+					<section class="footer-maplist">
+						<ul>
+							<li>
+								<a class="gray" href="https://www.uala.com.ar/sumate">Búsquedas laborales</a>
+							</li>
+							<li>
+								<a class="gray" href="https://www.uala.com.ar/tyc.html">Términos de uso</a>
+							</li>
+							<li>
+								<a class="gray" target="_blank" href="http://comunidad.uala.com.ar/">Comunidad Ualá</a>
+							</li>
+							<li>
+								<a class="gray" href="https://www.uala.com.ar/privacidad.html">Políticas de privacidad</a>
+							</li>
+							<li>
+								<a class="gray" target="_blank" href="http://blog.uala.com.ar/">El Blog de Ualá</a>
+							</li>
+							<li>
+								<a class="gray" href="https://www.uala.com.ar/contratos">Contratos de Adhesión - Ley N° 24.240 de Defensa del Consumidor</a>
+							</li>
+
+							<li class="margin-top">
+
+								<!-- Button trigger modal -->
+								<button type="button" class="btn gray" data-bs-toggle="modal" data-bs-target="#exampleModal">
+									Defensa del Consumidor
+								</button>
+								
+								<!-- Modal -->
+								<div class="modal fade" id="exampleModal" tabindex="-1" aria-hidden="true">
+									<div class="modal-dialog modal-dialog-centered">
+									<div class="modal-content">
+										<div class="modal-header">
+										<div class="modal-body info-p">
+
+											<p>La Ley N° 2.244 establece que las personas físicas o jurídicas que comercialicen, o presten servicios a consumidores y/o usuarios en el ámbito de la C.A.B.A. y posean página de internet, deberán agregar un enlace con la Dirección General de Defensa y Protección al Consumidor. Podés realizar tu consulta 
+											<a target='_BLANK' href='https://www.buenosaires.gob.ar/defensaconsumidor/como-denunciar'>aqui</a>
+											</p>
+				
+											<p>Si te encontrás en otro lugar del país, podés consultar <a target='_BLANK' href='https://www.argentina.gob.ar/produccion/consumidor/oficinas-provinciales'>aquí</a>.
+											</p>
+										</div>
+										<div class="modal-footer">
+										<button type="button" class="btn btn-primary" data-bs-dismiss="modal">Aceptar</button>
+										</div>
+									</div>
+									</div>
+								</div>
+
+
+
+							</li>
+
+						</ul>
+						<a target="_blank" class="stickers" href="http://sticker.ly/s/OO1MGN">
+							Descargá nuestros stickers para WhatsApp
+						</a>
+					</section>
+				</section>
+				<section class="footer-copy">
+					<div class="aaip-container">
+						<img src="https://www.uala.com.ar/assets/images/logos/aaip.png" alt="">
+						<p>
+							Ualá es un Proveedor de Servicios de Pago y no está autorizado por el BCRA para operar como entidad financiera.
+						<a href="/legales">Mas info acá</a>.
+						</p>
+					</div>
+					<div class="uala-location">
+						<div>ALAU TECNOLOGÍA S.A.U. - CUIT 30-71542170-0</div>
+						<div>Ualá © 2020 , Todos los derechos reservados.</div>
+						<div>Nicaragua 4677 , C1414BVG CABA, Argentina.</div>
+					</div>
+				</section>
+			</section>
+		</div>
+		</footer>
+	 </main>
+
+
+
+    </body>
+</html>
