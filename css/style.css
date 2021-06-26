@@ -514,6 +514,11 @@ color: white;
     max-width: 300px;
 }
 
+.card .vermas-button a{
+    text-decoration: none;
+    color: var(--off-white);
+}
+
 .subblock3{
     /* margin-top: 64px; */
     width: 100%;
